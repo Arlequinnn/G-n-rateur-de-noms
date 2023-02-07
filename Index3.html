@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Generateur de noms</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+  </head>
+  <body>
+    <div id="cadre"><h1>Generateur de noms</h1></div>
+    <div id="box">
+    <form id="generatorForm">
+      <label for="userName">Entrez votre nom:</label>
+      <input type="text" id="userName">
+      <br>
+      <label for="raceSelect">Choisissez votre race:</label>
+      <select id="raceSelect">
+        <option value="nains">Nains</option>
+        <option value="humains">Humains</option>
+        <option value="elfes">Elfes</option>
+        <option value="orcs">Orcs</option>
+      </select>
+      <br>
+      <button id="generateNameButton">Generer le nom</button>
+    </form>
+    </div>
+    <br>
+    <div id="cadre"><h2 id="generatedName">Nom genere:</h2></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

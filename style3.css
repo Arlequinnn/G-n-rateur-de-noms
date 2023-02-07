@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Augusta";
+    src: local("Augusta"),
+      url("Augusta.ttf") format("truetype"),
+}
+body {
+  background-image: url("fond.jpg");
+  font-family: "Augusta";
+  text-align: center;
+}
+#cadre{
+   height: 40px;
+   width: auto; 
+   background-color: rgba(98, 192, 236, 0.719);
+   border-radius: 10px;
+}
+#box{
+    margin-top: 5%;
+    height: auto;
+    width: auto; 
+    background-color: rgba(2, 86, 126, 0.836);
+    border-radius: 10px;
+}
+input, select {
+  padding: 10px;
+  font-size: 18px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
